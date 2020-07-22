@@ -1,0 +1,572 @@
+/* Start global */
+body {
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+article {
+    width: 1150px;
+    margin: auto;
+}
+
+.main-button {
+    text-transform: uppercase;
+    background-color: #3867d6;
+    border: 1px solid #3867d6;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* End global */
+
+/* Start Header */
+header {
+    overflow: auto;
+    padding-top: 40px;
+}
+
+header h2 {
+    float: left;
+    text-transform: capitalize;
+    font-family: 'Gotu', sans-serif;
+}
+
+header .right {
+    float: right;
+}
+
+header .right h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+header .right p {
+    margin-top: 0;
+}
+
+header .right .placerat {
+    float: left;
+}
+
+header .right .lobortis {
+    float: left;
+    margin-left: 50px;
+}
+/* End Header */
+
+/* Start navigation */
+nav {
+    background-color: #2980b9;
+    position: relative;
+}
+
+nav .basic-ul {
+    overflow: auto;
+    padding-left: 0;
+    margin-bottom:0;
+}
+
+nav .basic-ul .basic-li {
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px 25px;
+}
+
+nav .basic-ul .basic-li:first-child {
+    opacity: .8;
+    color: #75c7ff;
+}
+
+nav .basic-ul .basic-li:hover {
+    opacity: .8;
+    color: #75c7ff;
+}
+
+nav .basic-ul .basic-li:nth-child(2)::before {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+nav .basic-ul .first-sub-ul {
+    list-style: none;
+    background-color: #2980b9;
+    padding-left: 0;
+    position: absolute;
+    top: 59px;
+    left: 210px;
+    display: none;
+}
+
+nav .basic-ul .first-sub-ul li {
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding: 5px 40px 5px 15px;
+}
+
+nav .basic-ul .basic-li:nth-child(2):hover .first-sub-ul {
+    display: block;
+    transition: .6s;
+}
+
+nav .basic-ul .basic-li:nth-child(2):hover .first-sub-ul li {
+    color: #fff;
+}
+
+nav .basic-ul .basic-li:nth-child(3)::before {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+nav .basic-ul .second-sub-ul {
+    list-style: none;
+    background-color: #2980b9;
+    padding-left: 0;
+    position: absolute;
+    top: 59px;
+    left: 325px;
+    display: none;
+}
+
+nav .basic-ul .second-sub-ul > li {
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding: 5px 40px 5px 15px;
+}
+
+nav .basic-ul .basic-li:nth-child(3):hover .second-sub-ul {
+    display: block;
+    transition: .6s;
+}
+
+nav .basic-ul .basic-li:nth-child(3):hover .second-sub-ul li {
+    color: #fff;
+}
+
+nav .basic-ul .second-sub-ul .two::before {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    margin-right: 5px;
+    font-size: 11px;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+
+nav .third-sub-ul:nth-child(2) {
+    font-family: FontAwesome;
+    content: "\f0d7";
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+nav .third-sub-ul {
+    list-style: none;
+    background-color: #2980b9;
+    padding-left: 0;
+    position: absolute;
+    top: 30px;
+    left: 158px;
+    display: none;
+}
+
+nav .third-sub-ul li {
+    text-transform: capitalize;
+    border-bottom: 1px solid #fff;
+    padding: 5px 60px 5px 15px;
+    width: 60px;
+}
+
+nav .second-sub-ul .two:hover .third-sub-ul {
+    display: block;
+}
+
+/* End navigation */
+
+/* Start Egestas */
+.egestas {
+    background-image: url(../images/screen.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.egestas article .pars {
+    padding-top: 115px;
+}
+
+.egestas article .pars p {
+    color: #fff;
+}
+
+.egestas article .pars p:first-child{
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.egestas article .pars p:nth-child(2) {
+    font-size: 35px;
+    font-style: italic;
+    margin: 25px 0 40px 0;
+}
+
+.egestas article .button {
+    margin-top: 100px;
+}
+
+.egestas article .button button {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.egestas article .button button:first-child {
+    margin-right: 20px;
+}
+
+.egestas article .button button:hover {
+    background-color: #3867d6;
+    border: 1px solid #3867d6;
+    transition: .4s;
+}
+/* End Egestas */
+
+/* Start aliquet */
+.aliquet {
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+.aliquet .left {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.aliquet .left p:last-child {
+    font-size: 26px;
+}
+
+.aliquet .right {
+    float: left;
+    width: 62%;
+}
+
+.aliquet .right a::after {
+    font-family: FontAwesome;
+    content: "\f101";
+    margin-right: 5px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+/* End aliquet */
+
+/* Start images */
+
+.images .img {
+    margin-top: 80px;
+}
+.images .img img {
+    width: 540px;
+    height: 360px;
+    margin-right: 30px;
+}
+/* End images */
+
+/* Start venenatis */
+.venenatis {
+    background-image: url(../images/screen.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.venenatis h2 {
+padding-top: 90px;
+margin-bottom: 5px;
+}
+
+.venenatis p {
+    margin-top: 0;
+}
+
+.venenatis a {
+    margin-top: 20px;
+}
+
+.venenatis a::after {
+    font-family: FontAwesome;
+    content: "\f101";
+    margin-right: 5px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+/* End venenatis */
+
+/* Start Nulla */
+
+.nulla .top {
+    text-align: center;
+}
+.nulla .top h3 {
+    padding-top: 70px;
+    margin-bottom: 5px;
+}
+
+.nulla .top p {
+    margin-top: 0;
+}
+
+.nulla .bottom {
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.nulla .bottom .one {
+    float: left;
+    width: 33.3333%;
+}
+
+.nulla .bottom .one img {
+    width: 350px;
+    height: 235px;
+}
+
+.nulla .bottom .one span {
+    margin-right: 5px;
+}
+
+.nulla .bottom .one span a {
+    text-decoration: none;
+    color: #00f;
+    text-transform: capitalize;
+}
+
+.nulla .bottom .one p{
+    width: 300px;
+    line-height: 20px;
+}
+
+.nulla .bottom .one .read {
+    margin-top: 20px;
+}
+
+.nulla .bottom .one .read::after {
+    font-family: FontAwesome;
+    content: "\f101";
+    margin-right: 5px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+/* End Nulla */
+
+/* Start Tincidunt */
+.tincidunt {
+    background-image: url(../images/black.jpg);
+    height: 200px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.tincidunt p {
+    float: left;
+    color: #fff;
+    margin-top: 91px;
+    font-size: 25px;
+}
+
+.tincidunt a {
+    float: right;
+    margin-top: 80px;
+}
+
+.tincidunt a::after {
+    font-family: FontAwesome;
+    content: "\f101";
+    margin-right: 5px;
+    font-size: 11px;
+    margin-left: 5px;
+}
+/* End Tincidunt */
+
+/* Start contact */
+.contact {
+    background-color: #2d3436;
+    overflow: auto;
+}
+
+.contact .box {
+    padding-top: 50px;
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+}
+
+.contact .box div {
+    margin-bottom: 15px;
+}
+
+.contact .box h3 {
+    color: #fff;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.contact .one div {
+    color: #fff;
+}
+
+.contact .one .location {
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+}
+
+.contact .one .location span:first-child {
+    float: left;
+    margin-left: 10px;
+}
+
+.contact .one .location span:last-child {
+    float: right;
+    width: 85%;
+    padding-bottom: 15px;
+}
+
+.contact .one .phone {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+
+.contact .one .phone span:first-child {
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+.contact .one .mail {
+    padding-bottom: 15px;
+}
+
+.contact .one .mail span:first-child {
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+.contact .one .social ul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0;
+}
+
+.contact .one .social ul li {
+    float: left;
+    margin-right: 10px;
+    background-color: #2C3A47;
+    padding: 8px  12px;
+    border-radius: 3px;
+    color: #1B9CFC;
+    cursor: pointer;
+}
+
+.contact .one .social ul li:hover {
+    background-color: #1B9CFC;
+    color: #fff;
+    transition: 1s;
+}
+
+.contact .two ul,
+.contact .three ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact .two ul li,
+.contact .three ul li {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.contact .two ul li:last-child,
+.contact .three ul li:last-child {
+    border-bottom: none;
+}
+
+.contact .two ul li a,
+.contact .three ul li a {
+    text-decoration: none;
+    color: #1B9CFC;
+}
+
+.contact .four p {
+    line-height: 30px;
+    color: #fff;
+    width: 96%;
+}
+
+.contact form input {
+    background-color: #2C3A47;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact form .submit {
+    background-color: #25CCF7;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+}
+/* End contact */
+
+/* Start footer */
+footer {
+    background-color: #1e272e;
+    overflow: auto;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:last-child {
+    float: right;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* End footer */
+
+/* Start top button */
+
+.top i {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #3c40c6;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+/* End top button */
